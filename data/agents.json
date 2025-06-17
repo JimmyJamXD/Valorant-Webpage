@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Jett",
+        "role": "Duelist",
+        "image": "assets/agents-images/jett.png"
+    },
+
+    {
+        "name": "Sova",
+        "role": "Initiator",
+        "image": "assets/agents-images/sova.png"
+    },
+
+    {
+        "name": "Sage",
+        "role": "Sentinel",
+        "image": "assets/agents-images/sage.png"
+    },
+
+    {
+        "name": "Phoenix",
+        "role": "Duelist",
+        "image": "assets/agents-images/phoenix.png"
+    },
+
+    {
+        "name": "Viper",
+        "role": "Controller",
+        "image": "assets/agents-images/viper.png"
+    },
+
+    {
+        "name": "Cypher",
+        "role": "Sentinel",
+        "image": "assets/agents-images/cypher.png"
+    }
+]
