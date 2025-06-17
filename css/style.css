@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("./images/VALORANT_Logo_V_galleryimage.jpg");
+}
+/* ================Menu Bar==================== */
+.container-fluid img{
+    max-width:  40px;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.navbar-brand{
+    margin-right: 40px;
+}
+
+.d-flex{
+    width: 30%;
+    height: 70px;
+}
+
+.nav-link{
+    margin-right: 10px;
+}
+
+.header-nav-toggle{
+    display: none;
+}
+
+.header-nav-left,
+.header-nav-right {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+/* .navigation {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    size: 30rem;
+    padding: 20px 10px;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-family: Beaufort for LOL,Arial,sans-serif;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+
+/* ===============Video========================= */
+.btn {
+    background-color: red;
+    color: black;
+    border: 2px solid red;
+    border: none;
+    color: white;
+    padding: 15px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.game-video{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.video{
+    display:flex;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #0000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.overlay-text_sub{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.video-bg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid aliceblue;
+}
+
+
+/* ==========================Intro Section================================ */
+.main-section{
+    display: flex;
+    justify-self: center;
+    background-color: antiquewhite;
+    width: 80%;
+}
+
+.main-sub-section{
+    display: flex;
+    height: 65vh;
+
+}
+
+.main-section-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 800px;
+}
+
+.main-section-h1{
+    display: flex;
+    justify-content: center;
+    width: 53%;
+    margin-top: 10vh;
+    color: red;
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+}
+
+.main-section-h4{
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    font-size: 26px;
+    margin-top: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-section-p{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 78px;
+    margin-top: 3vh;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-text{
+    display: flex;
+    font-size: 3rem;
+    position: relative;
+    left: 105px;
+}
+/* ========================Text section of the Intro======================== */
+
+.main-video {
+    display: flex;
+    justify-self: center;
+    margin-top: 18vh;
+    border: 2px solid #838996;
+    width:80%;
+}
+
+.text-section{
+    z-index: 1;
+}
+
+.bg-image-section{
+    z-index: -1;
+    width: 100%;
+}
+
+.wrapper-section-p_1{
+    display: flex;
+    justify-content: center
+}
+
+/* ==============================Agent Selction================================ */
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carousel-item{
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-inner {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carousel img {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.02);
+}
+
+.logo{
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding:0;
+}
+
+.d-block {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #b59758;
+}
+
+.agent-info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.itemhide{
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.carousel-item:hover .itemhide {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.itemhide-title,
+.itemhide-p,
+.itemhide-p1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.itemhide-p{
+    display: flex;
+    align-items: center;
+}
+
+/* ========================Footer=========================== */
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(40,38,31);
+}
+
+.footer-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footerbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-item{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+} 
+
+.footer-logo{
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 65px;
+}
+
+.logo-event:hover{
+    color: blue;
+    
+}
+
+@media screen and (max-width: 1200px){
+
+    .content-header {
+        height: auto;
+        display: block;
+        padding: 1px 1px;
+        margin: 0.5;
+    }
+
+    .header-nav-toggle{
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+    
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .navigation ul {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    /* .navbar {
+        display:none;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        list-style: none;
+    } */
+
+    .navigation ul li{
+        margin: 0;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        list-style-type: none; 
+    }
+   
+    .navbar {
+        display: none;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .wrapper-section{
+        margin-top: -37vh;
+    }
+
+    .wrapper-title{
+        margin: auto;
+    }
+
+    .pg-wrap-1{
+        display: block;
+        position: relative;
+        color: white;
+    }
+
+    .pg-wrap-2{
+        margin-top: -9vh;
+    }
+
+    .pg-1{
+        display: flex;
+        color: white;
+        width: 100%;
+        justify-content: center;
+        font-size: 5rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        margin: 0;   
+    }
+
+    .main-section-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-section-h1{
+        width: 77%;
+        margin: 0;
+    }
+
+    .main-section-h4{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3vh;
+        width: 30%;
+    }
+
+    .main-section-p{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .text-section{
+        margin: auto;
+    }
+
+    .section-video{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+    .main-video{
+        margin: auto;
+    }
+
+    .d-block{
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid #b59758;
+    }
+
+    .sub-text{
+        width: 77%;
+    }
+    
+    .section-p{
+        margin: 0;
+    }
+}
